@@ -18,6 +18,7 @@ const Navbar = () => {
 							<div className='container-fluid'>
 								<NavLink
 									className='navbar-brand'
+									style={{ color: 'white' }}
 									brand={icon}
 									toggleNavKey={0}
 									to='/'>
@@ -42,6 +43,7 @@ const Navbar = () => {
 												exact
 												activeClassName='menu_active'
 												className='nav-link active'
+												style={{ color: 'white' }}
 												aria-current='page'
 												to='/'>
 												Home
@@ -52,6 +54,7 @@ const Navbar = () => {
 											<NavLink
 												activeClassName='menu_active'
 												className='nav-link active'
+												style={{ color: 'white' }}
 												aria-current='page'
 												to='/about'>
 												About
@@ -62,6 +65,7 @@ const Navbar = () => {
 											<NavLink
 												activeClassName='menu_active'
 												className='nav-link active'
+												style={{ color: 'white' }}
 												aria-current='page'
 												to='/service'>
 												Watch
@@ -72,6 +76,7 @@ const Navbar = () => {
 											<NavLink
 												activeClassName='menu_active'
 												className='nav-link active'
+												style={{ color: 'white' }}
 												aria-current='page'
 												to='/contact'>
 												Contact
