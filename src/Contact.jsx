@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+//import { useForm } from 'react-hook-form';
 
 const Contact = () => {
 	const [data, setData] = useState({
@@ -20,8 +21,18 @@ const Contact = () => {
 
 	const formSubmit = event => {
 		event.preventDefault();
+		console.log(
+			'Name: ' +
+				data.fname +
+				'\nPhone Number: ' +
+				data.phno +
+				'\nE-Mail: ' +
+				data.mail +
+				'\nMessage: ' +
+				data.msg
+		);
 		alert(
-			`Thank you for your response ${data.fname}. Your message "${data.msg}" received sucessfully`
+			`Thank you for your response ${data.fname}. Your message "${data.msg}" send sucessfully. Check Console!`
 		);
 	};
 
@@ -45,6 +56,7 @@ const Contact = () => {
 										value={data.fname}
 										onChange={InputEvent}
 										placeholder='Enter your Full Name here'
+										required='true'
 									/>
 								</div>
 
@@ -60,6 +72,7 @@ const Contact = () => {
 										value={data.phno}
 										onChange={InputEvent}
 										placeholder='Enter your Phone Number here: 9415****89'
+										required='true'
 									/>
 								</div>
 
@@ -75,6 +88,7 @@ const Contact = () => {
 										value={data.mail}
 										onChange={InputEvent}
 										placeholder='Enter your E-Mail ID here: name@example.com'
+										required='true'
 									/>
 								</div>
 
