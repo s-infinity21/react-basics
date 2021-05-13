@@ -1,6 +1,6 @@
 import React from 'react';
 import Common from './Common';
-import sc from '../src/Images/logo.png';
+import sc from '../src/Images/logo-full.png';
 
 const Home = () => {
 	return (
