@@ -14,7 +14,7 @@ const Navbar = () => {
 			<div className='container-fluid nav_bg'>
 				<div className='row'>
 					<div className='col-10 mx-auto'>
-						<nav className='navbar navbar-expand-lg navbar-light sticky-top'>
+						<nav className='navbar navbar-expand-lg navbar-light navbar-static-top'>
 							<div className='container-fluid'>
 								<NavLink
 									className='navbar-brand'
