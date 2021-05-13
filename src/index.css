@@ -222,7 +222,7 @@ body {
 
 .contact_heading {
 	color: #ffffff;
-	font-size: 45px;
+	font-size: 41px;
 	font-weight: 700;
 }
 
@@ -357,7 +357,7 @@ footer {
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
 	#header {
 		margin-top: 20px;
 	}
