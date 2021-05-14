@@ -1,6 +1,6 @@
 import React from 'react';
 import Common from './Common';
-import img2 from '../src/Images/IMG.png';
+import img2 from '../src/Images/IMG-au.png';
 
 const About = () => {
 	return (
