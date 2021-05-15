@@ -1,6 +1,5 @@
 # Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sitcoholic - A project build using ReactJS is a website for true sitcom lovers. I build this project to know the basics of ReactJS library and concepts of ECMAScript 6 (ES6). 
 
 ## Available Scripts
 
